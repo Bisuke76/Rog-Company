@@ -49,6 +49,7 @@ nav ul {
 a {
   text-decoration: none;
   color: inherit;
+  font-size: 18px;
 }
 
 nav li a {
@@ -71,4 +72,34 @@ nav li a {
 nav li a:hover {
   --_p: 100%;
   --_s: 0.3s;
+}
+
+main {
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+
+}
+
+main h2, p {
+  text-align: center;
+}
+
+main h2{
+  color: #f86322;
+  font-size: 55px;
+
+}
+
+main p {
+  font-size: 18px;
+}
+
+section {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main_1 {
+  margin-top: 100px;
 }
